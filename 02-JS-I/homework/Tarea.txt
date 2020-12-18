@@ -1,0 +1,10 @@
+Variables: Es la forma en que guardamos informacion en JS para poder utilizarla después, como un cajon donde colocamos cosas que necesitamos luego. 
+Hay tres tipos (var, let, const)
+
+Strings: Son cadenas de elementos y de caracteres, por ejemplo: letras y numeros. Pero la condicion para que sea una cadena es que vayan entre comillas esos elementos y caracteres.
+
+Funciones: Es la manera en que colocamos metodos y acciones a determinados elementos. Es enseñarle al elemento a hacer algo. Nos permiten manipular las variables. 
+
+Declaraciones: Nos permiten establecer posibilidades de respuesta a las funciones, es decir, condiciones. Si le damos a una funcion una declaracion if, estariamos dandole posibilidades de respuesta a partir de condiciones que nosotros elijamos. 
+
+Valores booleanos: Es un valor que declara si algo es: si o no, blanco o negro, verdadero o falso, 1 o 0. 
