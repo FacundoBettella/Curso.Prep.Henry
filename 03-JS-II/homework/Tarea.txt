@@ -1,0 +1,21 @@
+for: Se trata de un bucle. Es decir, es un proceso de validación similar a if pero que repite una secuencia tantas veces 
+como sea necesario hasta que el valor que retorne sea falso, que es cuando deja de funcionar. Posee en su sintaxis tres
+elementos: La declaracion de la variable; la expresión condicional; y el incremento de la variable. 
+
+OPERADORES LÓGICOS
+&&: Tambien conocido como "and" o "y". Se trata de un operador que evalua dos expresiones y cuando ambas son verdaderas 
+devuelve true, cuando una es verdadera pero la otra falsa devuelve false. Entonces, al tratarde de "and" quiere decir que
+engloba a ambas expresiones por lo que para que sea verdadera tiene que serlo al 100%. Si la primera es falsa el 
+computador deja de leer ya que nunca podrá ser verdadera. 
+
+||: Tambien conocido como "or" u "o". Se trata de un operador que evalua expresiones pero que para ser verdader solo
+con que una lo sea es suficiente. Es decir, no engloba como && por lo que puede tener una expresion falsa pero si la 
+otra es verdadera el valor que retorna será true. 
+
+!: Conocido como "Not" o "No". Al contrario que && y || el valor que devuelve es el contrario del que se le indica. 
+Si la expresion es verdadera, colocando ! previo a la misma, el resultado será false. 
+
+Es importante saber que las expresiones se evaluan segun el orden y, ademas, debemos usar parentesis para ubicar 
+primero el contenido y para que luego sea evaluado por el operador logico. 
+
+
