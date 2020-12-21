@@ -1,0 +1,3 @@
+ Arrays (Arreglo) []: El Arrays es una serie de elementos que se ordenan uno después del otro como lo haria una lista en
+la vida real. Se pueden integrar en la lista todo tipo de datos, como lo son: strings, numeros, booleanos, null, undefined
+, arreglos internos(sub), etc.
