@@ -1,0 +1,17 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+1. `prototype`
+2. _Constructors_ (de Clases)
+
+1. El prototype se trata de una propiedad más presente en un objeto. Se utiliza para cuando buscamos una propiedad en el 
+objeto que no es -a primeras- observable en el obejeto, y cuando esto ocurre JS la busca en el proto del objeto en cuestion. 
+Podemos definir de mono manual propiedades al objeto, las que quieramos, pero el objeto posee tambien, en su proto, otras
+propiedades; algunos ejemplos en un objeto array serían: push, pop, etc..
+
+2. Constructors: Para entenderlos primero debemos saber que es una clase. En informatica, las clases sirven como planillas
+donde se ubican las cualidades y características de un objeto determinado. Un ejemplo seria: Como clase el concepto Perro,
+que funciona como una planilla para colocar dentro los tipos de perros que existen, asi como sus caracteristicas: nombre,
+tamaño, sexo, raza, pelaje, etc.
+Entonces, un Constructors es una fabrica de objetos (en concordancia con el ejemplo anterior: una planilla para colocar
+los perros participantes y sus respectivas particularidades). 
+
