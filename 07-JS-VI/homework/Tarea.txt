@@ -1,0 +1,24 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se 
+lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en 
+tu comprensión.
+
+CallBacks: En Javascript se puede pasar una funcion en modo de argumento a otra funcion posterior. Este tipo de funcion
+se denomina Callback. Los callback pueden usarse en cualquier momento. El acuerdo comun entre programadores es usar "cb"
+como argumento para la variable que se usará de callback.
+
+
+* Funciones Callback: 
+    .forEach: Se trata de un bucle tipo "for". Utiliza un callback como su único argumento, e itera (repite una accion) 
+    sobre cada elemento de la matriz y llama al callback en él. Utiliza dos argumentos, primero el elemento en si (valor
+    actual) y segundo -opcional- el index.
+
+    .reduce: Realiza un bucle en la matriz pero con la intencion de que de todos los elementos presentes emerga uno solo. 
+    Acepta un callback que tenga dos argumentos: un acumulador (acc: el resultado del metodo hasta ahora) y el elemento 
+    (en el que se encuentra actualmente). Siempre debe contener una declaración de devolución (return). 
+
+    .map: Se usa cuando queremos cambiar cada elemento presente en la mtraiz, es como si los mapeara y ejecutara un 
+    callback establecido con anterioridad. Toma un solo callback como argumento.
+    Similitud a .forEach: el callback tiene elmento e indice de argumentos opcionales.
+    Diferencia a .reduce: Devolverá la matriz completa y no un resultado de toda la matriz como .reduce. 
+
+
