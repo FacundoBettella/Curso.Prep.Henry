@@ -1,0 +1,54 @@
+body{
+    background-image: url(../italia.jpg);
+    background-size: cover;
+
+}
+
+h1{
+    color: rgb(253, 9, 58);
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    text-align: center;
+}
+
+
+#thirdDiv{
+    width: 600px;
+    height: 500px;
+    background-color: darkslategray;
+    padding: 50px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+.linkmamma{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+
+
+
